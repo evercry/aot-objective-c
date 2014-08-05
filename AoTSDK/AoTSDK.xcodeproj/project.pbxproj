@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1AD6F7A199058E3004123B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1AD6F79199058E3004123B7 /* Foundation.framework */; };
+		A1AD6F88199058E3004123B7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1AD6F87199058E3004123B7 /* XCTest.framework */; };
+		A1AD6F89199058E3004123B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1AD6F79199058E3004123B7 /* Foundation.framework */; };
+		A1AD6F8B199058E3004123B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1AD6F8A199058E3004123B7 /* UIKit.framework */; };
+		A1AD6F8E199058E3004123B7 /* libAoTSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1AD6F76199058E3004123B7 /* libAoTSDK.a */; };
+		A1AD6F94199058E3004123B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1AD6F92199058E3004123B7 /* InfoPlist.strings */; };
+		A1AD6F96199058E3004123B7 /* AoTSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AD6F95199058E3004123B7 /* AoTSDKTests.m */; };
+		A1AD6FA1199058FF004123B7 /* AOTRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AD6FA0199058FF004123B7 /* AOTRequestHandler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1AD6F8C199058E3004123B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1AD6F6E199058E3004123B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1AD6F75199058E3004123B7;
+			remoteInfo = AoTSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A1AD6F74199058E3004123B7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A1AD6F76199058E3004123B7 /* libAoTSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAoTSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1AD6F79199058E3004123B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A1AD6F7D199058E3004123B7 /* AoTSDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AoTSDK-Prefix.pch"; sourceTree = "<group>"; };
+		A1AD6F86199058E3004123B7 /* AoTSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AoTSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1AD6F87199058E3004123B7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A1AD6F8A199058E3004123B7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A1AD6F91199058E3004123B7 /* AoTSDKTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AoTSDKTests-Info.plist"; sourceTree = "<group>"; };
+		A1AD6F93199058E3004123B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A1AD6F95199058E3004123B7 /* AoTSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AoTSDKTests.m; sourceTree = "<group>"; };
+		A1AD6F9F199058FF004123B7 /* AOTRequestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOTRequestHandler.h; sourceTree = "<group>"; };
+		A1AD6FA0199058FF004123B7 /* AOTRequestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOTRequestHandler.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1AD6F73199058E3004123B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1AD6F7A199058E3004123B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1AD6F83199058E3004123B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1AD6F88199058E3004123B7 /* XCTest.framework in Frameworks */,
+				A1AD6F8B199058E3004123B7 /* UIKit.framework in Frameworks */,
+				A1AD6F89199058E3004123B7 /* Foundation.framework in Frameworks */,
+				A1AD6F8E199058E3004123B7 /* libAoTSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1AD6F6D199058E3004123B7 = {
+			isa = PBXGroup;
+			children = (
+				A1AD6F7B199058E3004123B7 /* AoTSDK */,
+				A1AD6F8F199058E3004123B7 /* AoTSDKTests */,
+				A1AD6F78199058E3004123B7 /* Frameworks */,
+				A1AD6F77199058E3004123B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1AD6F77199058E3004123B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1AD6F76199058E3004123B7 /* libAoTSDK.a */,
+				A1AD6F86199058E3004123B7 /* AoTSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1AD6F78199058E3004123B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1AD6F79199058E3004123B7 /* Foundation.framework */,
+				A1AD6F87199058E3004123B7 /* XCTest.framework */,
+				A1AD6F8A199058E3004123B7 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1AD6F7B199058E3004123B7 /* AoTSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A1AD6F9F199058FF004123B7 /* AOTRequestHandler.h */,
+				A1AD6FA0199058FF004123B7 /* AOTRequestHandler.m */,
+				A1AD6F7C199058E3004123B7 /* Supporting Files */,
+			);
+			path = AoTSDK;
+			sourceTree = "<group>";
+		};
+		A1AD6F7C199058E3004123B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1AD6F7D199058E3004123B7 /* AoTSDK-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1AD6F8F199058E3004123B7 /* AoTSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1AD6F95199058E3004123B7 /* AoTSDKTests.m */,
+				A1AD6F90199058E3004123B7 /* Supporting Files */,
+			);
+			path = AoTSDKTests;
+			sourceTree = "<group>";
+		};
+		A1AD6F90199058E3004123B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1AD6F91199058E3004123B7 /* AoTSDKTests-Info.plist */,
+				A1AD6F92199058E3004123B7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1AD6F75199058E3004123B7 /* AoTSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1AD6F99199058E3004123B7 /* Build configuration list for PBXNativeTarget "AoTSDK" */;
+			buildPhases = (
+				A1AD6F72199058E3004123B7 /* Sources */,
+				A1AD6F73199058E3004123B7 /* Frameworks */,
+				A1AD6F74199058E3004123B7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AoTSDK;
+			productName = AoTSDK;
+			productReference = A1AD6F76199058E3004123B7 /* libAoTSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A1AD6F85199058E3004123B7 /* AoTSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1AD6F9C199058E3004123B7 /* Build configuration list for PBXNativeTarget "AoTSDKTests" */;
+			buildPhases = (
+				A1AD6F82199058E3004123B7 /* Sources */,
+				A1AD6F83199058E3004123B7 /* Frameworks */,
+				A1AD6F84199058E3004123B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1AD6F8D199058E3004123B7 /* PBXTargetDependency */,
+			);
+			name = AoTSDKTests;
+			productName = AoTSDKTests;
+			productReference = A1AD6F86199058E3004123B7 /* AoTSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1AD6F6E199058E3004123B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ntels;
+			};
+			buildConfigurationList = A1AD6F71199058E3004123B7 /* Build configuration list for PBXProject "AoTSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A1AD6F6D199058E3004123B7;
+			productRefGroup = A1AD6F77199058E3004123B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1AD6F75199058E3004123B7 /* AoTSDK */,
+				A1AD6F85199058E3004123B7 /* AoTSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1AD6F84199058E3004123B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1AD6F94199058E3004123B7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1AD6F72199058E3004123B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1AD6FA1199058FF004123B7 /* AOTRequestHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1AD6F82199058E3004123B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1AD6F96199058E3004123B7 /* AoTSDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1AD6F8D199058E3004123B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1AD6F75199058E3004123B7 /* AoTSDK */;
+			targetProxy = A1AD6F8C199058E3004123B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1AD6F92199058E3004123B7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1AD6F93199058E3004123B7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1AD6F97199058E3004123B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A1AD6F98199058E3004123B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1AD6F9A199058E3004123B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AoTSDK.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AoTSDK/AoTSDK-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A1AD6F9B199058E3004123B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AoTSDK.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AoTSDK/AoTSDK-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A1AD6F9D199058E3004123B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AoTSDK/AoTSDK-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AoTSDKTests/AoTSDKTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A1AD6F9E199058E3004123B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AoTSDK/AoTSDK-Prefix.pch";
+				INFOPLIST_FILE = "AoTSDKTests/AoTSDKTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1AD6F71199058E3004123B7 /* Build configuration list for PBXProject "AoTSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1AD6F97199058E3004123B7 /* Debug */,
+				A1AD6F98199058E3004123B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1AD6F99199058E3004123B7 /* Build configuration list for PBXNativeTarget "AoTSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1AD6F9A199058E3004123B7 /* Debug */,
+				A1AD6F9B199058E3004123B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A1AD6F9C199058E3004123B7 /* Build configuration list for PBXNativeTarget "AoTSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1AD6F9D199058E3004123B7 /* Debug */,
+				A1AD6F9E199058E3004123B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1AD6F6E199058E3004123B7 /* Project object */;
+}
